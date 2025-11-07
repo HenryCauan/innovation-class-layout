@@ -6,6 +6,7 @@
   },
   "scripts": {
     "start": "tailwindcss -i ./ecommerce/style.css -o ./ecommerce/dist/style.css --watch",
-    "build": "tailwindcss -i ./ecommerce/style.css -o ./ecommerce/dist/style.css"
+    "build": "tailwindcss -i ./ecommerce/style.css -o ./ecommerce/dist/style.css",
+    "postinstall": "chmod +x ./node_modules/.bin/tailwindcss"
   }
 }
